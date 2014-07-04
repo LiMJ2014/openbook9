@@ -14,13 +14,14 @@ Arduino目前广泛地应用于欧美等国家和地区的电子设计以及互�
 Arduino先后发布了很多种型号的板卡，比如可以缝在衣服上的LiLiPad。是的，初次见到它的时候，我也惊艳了。
 
 ![](http://doask.qiniudn.com/openbook9-arduinoblockone12.png)
->Arduino先后发布了很多种型号的板卡，比如可以缝在衣服上的LiLiPad。是的，初次见到它的时候，我也惊艳了。
 
-![](http://doask.qiniudn.com/openbook9-arduinoblockone13.PNG)
 >有专门为Andriod设计的Mega，是不是想试试了？
 
-![](http://doask.qiniudn.com/openbook9-arduinoblockone14.PNG)
+![](http://doask.qiniudn.com/openbook9-arduinoblockone13.PNG)
+
 >还有最基础，使用最广泛的UNO。我们将会频频接触到的。
+
+![](http://doask.qiniudn.com/openbook9-arduinoblockone14.PNG)
 
 我们整个课程系列使用DFRobot出品的Arduino Romeo V1。该控制器基于UNO板卡设计，继承了Arduino 328控制器所有的特性而且集成了电机驱动、键盘、IO扩展板、无线数据串行通讯等接口。它不仅可以兼容几乎所有Arduino系列的传感器和扩展板，而且可以直接驱动12个舵机。除此之外，它还提供了更多人性化设计，采用了3P彩色排针，能够对应传感器连接线，防止插错。其中红色对应电源，黑色对应GND，蓝色对应模拟口，绿色对应数字口。
 
@@ -35,7 +36,7 @@ ArduBlock教育版的使用说明：http://blog.sina.com.cn/s/blog_6611ddcf0101k
 
 ![](http://doask.qiniudn.com/openbook9-arduinoblockone16.png)
 
-程序中的各个模块都是从左侧的模块库里“拖进”编程界面的，然后用这些模块积木进行拼接，拼接对了，会发出一声“咔”的清脆响声。如果要删去模块，直接把不需要的模块“拖出”编程界面即可。当我们编写好一个程序，点击编程环境上方的“上载到Arduino”按钮，会发现Arduino文本式的编程环境上的“上传”图标也开始工作了，而且在Arduino文本式的编程环境里还生成了文本式的代码。程序上传成功之后，文本式的文本环境下面会提示我们上传成功。
+程序中的各个模块都是从左侧的模块库里“拖进”编程界面的，然后用这些模块积木进行拼接，拼接对了，会发出一声“咔”的清脆响声。如果要删去模块，直接把不需要的模块“拖出”编程界面即可。当我们编写好一个程序，点击编程环境上方的“上载到Arduino”按钮，会发现Arduino文本式的编程环境上的“上传”图标也开始工作了，而且在Arduino文本式的编程环境里还生成了文本式的代码。程序上传成功之后，文本式的编程环境下面会提示我们上传成功。
 
 ##四、驱动安装
 在使用Ardublock编程实现机器人的控制之前，需要给Arduino控制器安装驱动。以WIN7为例，简单介绍驱动安装过程。使用USB连接线连接计算机和Arduino控制器。会弹出以下窗口：
@@ -62,15 +63,14 @@ ArduBlock教育版的使用说明：http://blog.sina.com.cn/s/blog_6611ddcf0101k
 
 ![](http://doask.qiniudn.com/openbook9-arduinoblockone112.png)
 
-值得注意的是，我们要记下之前的端口号，在下载程序之前，选择工具——端口，将这里的端口与上面相对应。
 
- ##五、小试牛刀
 驱动安装完之后，你还要正确设置端口和板卡类型，Romeo V1是基于UNO的基础开发，所以选择UNO，如图所示：
 
 ![](http://doask.qiniudn.com/openbook9-arduinoblockone113.png)
 
 端口就选择COM4（安装驱动时看到的端口号），接下来就可以开始体验Ardublock了。
 
+##五、小试牛刀
 在【引脚】里面拖出【设定针脚数字值】，将“1”改成13，点击【上传到Arduino】，稍等数秒钟，你会发现板卡上有两个小LED灯在快速闪烁。等LED停止闪烁，程序也就上传成功了。你就可以看到板卡上的有个LED灯会一直亮着。程序如下。
 
 ![](http://doask.qiniudn.com/openbook9-arduinoblockone114.png)
