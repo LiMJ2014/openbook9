@@ -28,11 +28,11 @@ Arduino先后发布了很多种型号的板卡，比如可以缝在衣服上的L
 ![](http://doask.qiniudn.com/openbook9-arduinoblockone15.png)
 
 ##三、Ardublock编程环境
-ArduBlock由上海新车间的创客李大维和何琪辰开发，是Arduino官方编程环境的第三方软件，必须依附于Arduino IDE软件运行。使用图形化积木搭建的方式编程，可视化和交互性强，编程门槛低，即使没有编程经验的人也可以尝试给Arduino控制器编写程序。
+Ardublock由上海新车间的创客李大维和何琪辰开发，是Arduino官方编程环境的第三方软件，必须依附于Arduino IDE软件运行。使用图形化积木搭建的方式编程，可视化和交互性强，编程门槛低，即使没有编程经验的人也可以尝试给Arduino控制器编写程序。
 
-我们使用的ArduBlock是何琪辰为教育定制的版本。你也可以直接登录百度云盘，下载我们提供的已经集成的ArduBlock的最新版Arduino。网址：http://pan.baidu.com/s/1qWFJ0EK 。这个教育版本不仅分类清晰，而且功能更加强大。
+我们使用的Ardublock是何琪辰为教育定制的版本。你也可以直接登录百度云盘，下载我们提供的已经集成的Ardublock的最新版Arduino。网址：http://pan.baidu.com/s/1qWFJ0EK 。这个教育版本不仅分类清晰，而且功能更加强大。
 
-ArduBlock教育版的使用说明：http://blog.sina.com.cn/s/blog_6611ddcf0101kfs7.html
+Ardublock教育版的使用说明：http://blog.sina.com.cn/s/blog_6611ddcf0101kfs7.html
 
 ![](http://doask.qiniudn.com/openbook9-arduinoblockone16.png)
 
@@ -85,4 +85,4 @@ ArduBlock教育版的使用说明：http://blog.sina.com.cn/s/blog_6611ddcf0101k
 
 ![](http://doask.qiniudn.com/openbook9-arduinoblockone116.png)
 
-怎么样？体会到ArduBlock的强大功能了吧？这个LED就是第一个受我们编程控制的电子元件了。既然可以控制LED，我们就可以控制继电器、蜂鸣器、舵机、电磁阀等等。编程不再是阻止我们玩机器人的最大障碍了。继续跟我们学习用ArduBlock玩转机器人吧。
+怎么样？体会到Ardublock的强大功能了吧？这个LED就是第一个受我们编程控制的电子元件了。既然可以控制LED，我们就可以控制继电器、蜂鸣器、舵机、电磁阀等等。编程不再是阻止我们玩机器人的最大障碍了。继续跟我们学习用Ardublock玩转机器人吧。
